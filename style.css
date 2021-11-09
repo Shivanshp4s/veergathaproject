@@ -1,0 +1,167 @@
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+.abt {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+    -ms-flex-item-align: center;
+}
+ h2{
+     text-align: center;
+ }
+.ab{
+    display: flex;
+   background-color: aqua;
+    justify-content:space-between ;
+    border: 5px solid rgb(0, 119, 255);
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    background-color: rgb(red, green, blue);
+    -ms-flex-item-align:start;    
+    
+}
+.essay:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    color:black;
+}
+.ab:hover{
+    transition: 0.7s;
+    padding-left: 40%;
+    background-color: red;
+}
+.im:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 20%;
+    color:black;
+}
+
+.First:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 40%;
+    color:black;
+}
+.second:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 40%;
+    color:black;
+}
+.third:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 40%;
+    color:black;
+}
+.four:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 40%;
+    color:black;
+}
+.five:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 40%;
+    color:black;
+}
+.six:hover{
+    border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+    padding: 10px;
+    padding-left: 40%;
+    color:black;
+}
+.awardees { 
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdDfig5EMXyCzIC7KnRNLARx_PfdL3ap1yeA&usqp=CAU");
+}
+h1{
+    text-align: end;
+    color: black;
+}
+.heder{
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: red;
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+.hederpoints{
+    border: 1px solid white;
+    background-color: red;
+    box-shadow: 0px 0px 50px red, 0px 0px 100px red, 0px 0px 150px red;
+    animation: 5s infinite anim;
+    transition: 0.6s;
+}
+.full{
+    background-image: url("https://images.unsplash.com/photo-1550537687-c91072c4792d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+}
+.img{
+    align-content: center;
+    align-items: center;
+}
+
+/*border: 5px solid black;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 50px black, 0px 0px 100px black, 0px 0px 150px black;
+    animation: 2s infinite anim2;
+    transition: 0.6s;*/
+
+@keyframes anim {
+    0% {
+        background: red;
+    }
+    33% {
+        background: lightgreen;
+    }
+    66% {
+        background: blue;
+    }
+    100% {
+        background: red;
+    }
+}
+

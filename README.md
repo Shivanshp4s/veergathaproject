@@ -1,1 +1,1 @@
-# veergathaproject
+# Veer-Gatha-Project
